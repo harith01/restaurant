@@ -30,6 +30,10 @@ function contact(){
     const email = document.createElement('p');
     email.innerText= 'leemsysdelight@gmail.com';
     contact.appendChild(email);
+
+    element.appendChild(contact);
+
+    return element;
 }
 
 export default contact
