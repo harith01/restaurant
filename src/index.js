@@ -43,6 +43,6 @@ document.body.addEventListener('click', (e) => {
     }
 
     if (e.target.innerText == 'Contact'){
-        console.log('Contact')
+        clearScreen();
     }
 })
