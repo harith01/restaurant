@@ -2,7 +2,7 @@
 import pageLoad from './pageLoad';
 import './style.css';
 import menu from './menu';
-
+import contact from './contact';
 
 pageLoad()
 
@@ -44,5 +44,6 @@ document.body.addEventListener('click', (e) => {
 
     if (e.target.innerText == 'Contact'){
         clearScreen();
+        contact();
     }
 })
